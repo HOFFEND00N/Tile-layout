@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+#brown{
+    background-color: brown;
+    margin-left: 10px;
+}
+#red{
+    background-color: red;
+}
+#brick{
+    background-color: rgb(220,85,57);
+}
+#grey{
+    background-color: grey;
+}
+#haki{
+    background-color: rgb(195,176,145);
+}
+#green{
+    background-color: green;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#dark-blue{
+    background-color: darkblue;
+}
+#dark-green{
+    background-color: darkgreen;
+}
+#black{
+    background-color: black;
+}
+
+table {
+  width: 100%;
+}
+td {
+  width: 0.5%;
+}
+td::after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+.buttons{
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 9%;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+}
+.buttons:active{
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    transform: translateY(4px);
+}
+.colorChangeButton{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    outline: none;
+    cursor: pointer;
+    padding-left: 25px;
+}
+.colorChangeButton:active{
+    transform: translateY(2px);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+.container { 
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}

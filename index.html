@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>tiles color selection</title>
+</head>
+<body>
+    <div class="container">
+        <p>Коричневый: <a id="brownCnt">306</a></p>
+        <input type="button" class= "colorChangeButton" id="brown" onclick="ChangeColor()" style="background-color: brown;">
+        <p>Красный: <a id="redCnt">792</a></p>
+        <input type="button" class= "colorChangeButton" id="red" onclick="ChangeColor()" style="background-color: red;">
+        <p>Кирпичный: <a id="brickCnt">630</a></p>
+        <input type="button" class= "colorChangeButton" id="brick" onclick="ChangeColor()" style="background-color: rgb(220,85,57);">
+        <p>Серый: <a id="greyCnt">219</a></p>
+        <input type="button" class= "colorChangeButton" id="grey" onclick="ChangeColor()" style="background-color: grey;">
+        <p>Хаки: <a id="hakiCnt">1072</a></p>
+        <input type="button" class= "colorChangeButton" id="haki" onclick="ChangeColor()" style="background-color: rgb(195,176,145);">
+        <p>Зеленый: <a id="greenCnt">780</a></p>
+        <input type="button" class= "colorChangeButton" id="green" onclick="ChangeColor()" style="background-color: #89FF89;">
+        <p>Белый: <a id="whiteCnt">14</a></p>
+        <input type="button" class= "colorChangeButton" id="white" onclick="ChangeColor()" style="background-color: white;">
+        <p>Голубой: <a id="blueCnt">954</a></p>
+        <input type="button" class= "colorChangeButton" id="blue" onclick="ChangeColor()" style="background-color: #3AA3FF;">
+        <p>Темно-синий: <a id="darkBlueCnt">152</a></p>
+        <input type="button" class= "colorChangeButton" id="dark-blue" onclick="ChangeColor()" style="background-color: #4C85FF;">
+        <p>Темно-зеленый: <a id="darkGreenCnt">261</a></p>
+        <input type="button" class= "colorChangeButton" id="dark-green" onclick="ChangeColor()" style="background-color: #00AD70;">
+        <p>Черный: <a id="blackCnt">176</a></p>
+        <input type="button" class= "colorChangeButton" id="black" onclick="ChangeColor()" style="background-color: black;">
+    </div>
+    <script src="code.js"></script>
+    <script>
+        tableCreate();
+    </script>
+    <button id="DownloadTableBtn" class="buttons" onclick="DownloadTable()">Скачать</button>
+    <button id="UploadTableBtn" class="buttons" onclick="UploadTable()">Открыть</button>
+</body>
+</html>
